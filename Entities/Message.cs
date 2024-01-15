@@ -9,6 +9,8 @@ public partial class Message
 
     public DateOnly SentDate { get; set; }
 
+    public string Timestamp {get; set;}
+
     public string Text { get; set; } = null!;
 
     public int UserId { get; set; }

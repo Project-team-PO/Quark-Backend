@@ -133,6 +133,7 @@ public partial class QuarkDbContext : DbContext
                 .HasColumnName("id");
             entity.Property(e => e.ConversationId).HasColumnName("conversation_id");
             entity.Property(e => e.SentDate).HasColumnName("sent_date");
+            entity.Property(e => e.Timestamp).HasColumnName("timestamp");
             entity.Property(e => e.Text).HasColumnName("text");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
